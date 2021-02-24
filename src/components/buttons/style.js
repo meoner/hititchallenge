@@ -30,5 +30,11 @@ const register_style = StyleSheet.create({
     textDecorationLine: 'underline',
   },
 });
+const back_style = StyleSheet.create({
+  image: {
+    height: 24,
+    width: 24,
+  },
+});
 
-export {sign_style, register_style};
+export {sign_style, register_style, back_style};
