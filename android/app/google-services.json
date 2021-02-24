@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "779977243230",
+    "firebase_url": "https://hititchallenge-default-rtdb.firebaseio.com",
+    "project_id": "hititchallenge",
+    "storage_bucket": "hititchallenge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779977243230:android:20db0f803f2632b8b0d2cf",
+        "android_client_info": {
+          "package_name": "com.hititchallenge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779977243230-krj1k8mjhuu6eios52sm2h864tvljout.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt4utzHluU-M5bICcSziicMqbZAj8QZCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "779977243230-krj1k8mjhuu6eios52sm2h864tvljout.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
