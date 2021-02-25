@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {View, Text, FlatList, ActivityIndicator} from 'react-native';
 import {ListCard, TitleDescription, Loading} from '../../components';
 import {getTime} from '../../utils';
-import {useSelector, useDispatch} from 'react-redux';
+import {useDispatch} from 'react-redux';
 
 export function LaunchList({navigation}) {
   const [data, setData] = useState([]);
