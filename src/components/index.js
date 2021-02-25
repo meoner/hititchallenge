@@ -4,3 +4,6 @@ export * from './buttons/SignButton';
 export * from './buttons/ToRegisterButton';
 export * from './buttons/BackButton';
 export * from './listCard/ListCard';
+export * from './titleDescription/TitleDescription';
+export * from './loading/Loading';
+export * from './buttons/FavButton';

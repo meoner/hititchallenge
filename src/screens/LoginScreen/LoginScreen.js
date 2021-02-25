@@ -2,6 +2,7 @@ import React from 'react';
 import {useAuth} from '../../hooks';
 import {Login} from '../../container';
 import {Alert, Text} from 'react-native';
+import {Loading} from '../../components';
 
 export function LoginScreen({navigation}) {
   const {loading, error, response, _, signIn, errorReset} = useAuth();
@@ -19,7 +20,7 @@ export function LoginScreen({navigation}) {
     navigation.navigate('LaunchList');
   }
   if (loading) {
-    return <Text>Bekliyorr..</Text>;
+    return <Loading />;
   }
   if (error) {
     Alert.alert('Error', error.message);

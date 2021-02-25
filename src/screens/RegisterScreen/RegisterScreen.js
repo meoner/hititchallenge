@@ -2,6 +2,7 @@ import React from 'react';
 import {useAuth} from '../../hooks';
 import {Register} from '../../container';
 import {Alert, Text} from 'react-native';
+import {Loading} from '../../components';
 
 export function RegisterScreen({navigation}) {
   const {loading, error, response, signUp, _, errorReset} = useAuth();
@@ -15,7 +16,7 @@ export function RegisterScreen({navigation}) {
     navigation.navigate('Login');
   }
   if (loading) {
-    return <Text>Bekliyorr..</Text>;
+    return <Loading />;
   }
   if (error) {
     Alert.alert('Error', error.message);
