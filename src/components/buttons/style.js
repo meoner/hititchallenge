@@ -32,8 +32,8 @@ const register_style = StyleSheet.create({
 });
 const back_style = StyleSheet.create({
   image: {
-    height: 24,
-    width: 24,
+    height: 20,
+    width: 20,
   },
 });
 

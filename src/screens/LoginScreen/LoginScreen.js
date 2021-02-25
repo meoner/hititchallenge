@@ -16,7 +16,6 @@ export function LoginScreen({navigation}) {
     navigation.navigate('Register');
   }
   if (response) {
-    console.log(response);
     navigation.navigate('LaunchList');
   }
   if (loading) {

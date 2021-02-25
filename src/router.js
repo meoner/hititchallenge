@@ -1,7 +1,7 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
-import {LoginScreen, RegisterScreen,LaunchListScreen} from './screens';
+import {LoginScreen, RegisterScreen, LaunchListScreen} from './screens';
 import {BackButton} from './components';
 
 const Stack = createStackNavigator();
@@ -29,6 +29,7 @@ function Router() {
           component={LaunchListScreen}
           options={{
             headerTitle: 'Launch List',
+            headerTitleAlign:'center',
             headerStyle: {elevation: 0},
             headerBackImage: () => <BackButton />,
           }}
